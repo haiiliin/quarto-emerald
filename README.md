@@ -27,6 +27,11 @@ format:
   emerald-pdf: default
 ```
 
+## Options
+
+- `journal.linenumbers`: Add line numbers to the document.
+- `journal.linespread`: The line spread factor for the document, by default `1.5`.
+
 ## Example
 
 Here is the source code for a minimal sample document: [template.qmd](template.qmd).
