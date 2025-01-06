@@ -5,7 +5,7 @@ quarto-required: ">=1.6.0"
 contributes:
   formats:
     pdf:
-      template-partials: ["partials/before-body.tex", "partials/before-title.tex"]
+      template-partials: ["partials/before-body.tex", "partials/before-title.tex", "partials/title.tex"]
       cite-method: biblatex
       biblio-style: authoryear
       biblatexoptions: backend=biber,natbib=true,maxcitenames=2,uniquelist=false
