@@ -1,0 +1,18 @@
+\maketitle
+
+$if(abstract)$
+% Abstract
+\begin{abstract}
+$abstract$
+
+\vspace{2ex}
+
+% Keywords
+$if(keywords)$
+\textbf{Keywords:} $for(keywords/allbutlast)$$keywords$; $endfor$$for(keywords/last)$$keywords$$endfor$
+$endif$
+
+\end{abstract}
+$endif$
+
+% \linenumbers
