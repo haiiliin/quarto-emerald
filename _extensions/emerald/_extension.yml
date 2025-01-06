@@ -8,4 +8,4 @@ contributes:
       template-partials: ["partials/before-body.tex", "partials/before-title.tex", "partials/title.tex"]
       cite-method: biblatex
       biblio-style: authoryear
-      biblatexoptions: backend=biber,natbib=true,maxcitenames=2,uniquename=false
+      biblatexoptions: backend=biber,natbib=true,maxcitenames=2,uniquename=false,uniquelist=false
